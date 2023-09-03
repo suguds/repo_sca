@@ -1,0 +1,171 @@
+# SagerNet/sing-box安全风险及SBOM
+
+## 基础信息
+
+项目徽章：
+
+[![Security Status](https://www.murphysec.com/platform3/v31/badge/1698397690693206016.svg)](https://www.murphysec.com/console/report/1691511930957357056/1698397690693206016)
+
+仓库描述：The universal proxy platform
+
+仓库地址：[https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
+
+| star：4476 | watch：61 | fork：551 |
+| ----------- | -------------- | ------------ |
+| 所有者：Organization | 更新时间：2023-09-03 22:25:32 | 许可证：NOASSERTION |
+| 最近检测时间：2023-09-04 02:09:35 | 组件总数：101 | 漏洞总数：0 |
+
+> 点击徽章可查看详细项目安全报告
+
+
+
+## 漏洞列表
+
+| 漏洞名称 | 漏洞类型 | MPS编号 | CVE编号 | 漏洞等级 |
+| ------- | ------ | ------- | ------ | ----- |
+
+
+
+
+
+## 缺陷组件
+
+| 组件名称 | 版本 | 最小修复版本 | 依赖关系 | 修复建议 |
+| -------- | ---- | ------------ | -------- | -------- |
+
+
+
+
+
+## 许可证风险
+
+| 许可证类型 | 相关组件 | 许可证风险 |
+| ---------- | -------- | ---------- |
+|BSD-3-Clause|27|Low|
+|GPL-3.0|1|Medium|
+|MIT|35|Low|
+|ISC|2|Low|
+|Apache-2.0|22|Low|
+|GPL-3.0-or-later|10|Low|
+|CC0-1.0|1|Low|
+|BSD-2-Clause-Views|1|Low|
+|MPL-2.0|2|Low|
+|BSD-2-Clause|3|Low|
+|Unlicense|1|Low|
+|CC-BY-SA-4.0|1|Medium|
+
+
+
+
+## SBOM清单
+
+| 组件名称 | 组件版本 | 是否直接依赖 | 仓库 |
+| -------- | -------- | ------------ | ---- |
+|golang.org/x/net|v0.14.0|直接依赖|go|
+|github.com/Dreamacro/clash|v1.17.0|直接依赖|go|
+|github.com/pierrec/lz4/v4|v4.1.14|间接依赖|go|
+|google.golang.org/protobuf|v1.31.0|直接依赖|go|
+|github.com/dustin/go-humanize|v1.0.1|直接依赖|go|
+|github.com/davecgh/go-spew|v1.1.1|间接依赖|go|
+|github.com/klauspost/compress|v1.15.15|间接依赖|go|
+|golang.org/x/sys|v0.11.0|直接依赖|go|
+|github.com/sagernet/gomobile|v0.0.0-20230728014906-3de089147f59|直接依赖|go|
+|github.com/niemeyer/pretty|v0.0.0-20200227124842-a10e7caefd8e|间接依赖|go|
+|github.com/docker/go-units|v0.4.0|间接依赖|go|
+|github.com/sagernet/sing|v0.2.10-0.20230830132630-30bf19f2833c|直接依赖|go|
+|github.com/cloudflare/circl|v1.3.3|直接依赖|go|
+|github.com/google/btree|v1.1.2|间接依赖|go|
+|github.com/opencontainers/image-spec|v1.0.2|间接依赖|go|
+|github.com/zeebo/blake3|v0.2.3|间接依赖|go|
+|github.com/morikuni/aec|v1.0.0|间接依赖|go|
+|github.com/sagernet/smux|v0.0.0-20230312102458-337ec2a5af37|直接依赖|go|
+|github.com/sagernet/sing-box|v0.0.0|直接依赖|go|
+|github.com/quic-go/qpack|v0.4.0|间接依赖|go|
+|golang.org/x/crypto|v0.12.0|直接依赖|go|
+|github.com/docker/docker|v24.0.5+incompatible|直接依赖|go|
+|github.com/Dreamacro/protobytes|v0.0.0-20230617041236-6500a9f4f158|间接依赖|go|
+|github.com/sagernet/netlink|v0.0.0-20220905062125-8043b4a9aa97|间接依赖|go|
+|github.com/golang/protobuf|v1.5.3|间接依赖|go|
+|github.com/andybalholm/brotli|v1.0.5|间接依赖|go|
+|howett.net/plist|v1.0.0|直接依赖|go|
+|github.com/Microsoft/go-winio|v0.6.0|间接依赖|go|
+|github.com/cretz/bine|v0.2.0|直接依赖|go|
+|golang.org/x/exp|v0.0.0-20230817173708-d852ddb80c63|直接依赖|go|
+|github.com/u-root/uio|v0.0.0-20230220225925-ffce2a382923|间接依赖|go|
+|github.com/inconshreveable/mousetrap|v1.1.0|间接依赖|go|
+|github.com/hashicorp/yamux|v0.1.1|间接依赖|go|
+|github.com/pires/go-proxyproto|v0.7.0|直接依赖|go|
+|google.golang.org/genproto/googleapis/rpc|v0.0.0-20230525234030-28d5490b6b19|间接依赖|go|
+|github.com/miekg/dns|v1.1.55|直接依赖|go|
+|github.com/sagernet/wireguard-go|v0.0.0-20230807125731-5d4a7ef2dc5f|直接依赖|go|
+|github.com/oschwald/maxminddb-golang|v1.12.0|直接依赖|go|
+|github.com/caddyserver/certmagic|v0.19.2|直接依赖|go|
+|github.com/sagernet/quic-go|v0.0.0-20230831052420-45809eee2e86|直接依赖|go|
+|go.uber.org/zap|v1.25.0|直接依赖|go|
+|github.com/klauspost/cpuid/v2|v2.2.5|间接依赖|go|
+|github.com/sagernet/sing-tun|v0.1.12-0.20230821065522-7545dc2d5641|直接依赖|go|
+|github.com/docker/go-connections|v0.4.0|直接依赖|go|
+|github.com/gofrs/uuid/v5|v5.0.0|直接依赖|go|
+|github.com/pmezard/go-difflib|v1.0.0|间接依赖|go|
+|github.com/sagernet/sing-shadowsocks2|v0.1.3|直接依赖|go|
+|github.com/go-chi/cors|v1.2.1|直接依赖|go|
+|github.com/ajg/form|v1.5.1|间接依赖|go|
+|github.com/sagernet/sing-mux|v0.1.3-0.20230830095209-2a10ebd53ba8|直接依赖|go|
+|github.com/mholt/acmez|v1.2.0|直接依赖|go|
+|github.com/vishvananda/netns|v0.0.0-20211101163701-50045581ed74|间接依赖|go|
+|github.com/go-task/slim-sprig|v0.0.0-20230315185526-52ccab3ef572|间接依赖|go|
+|github.com/moby/term|v0.0.0-20221205130635-1aeaba878587|间接依赖|go|
+|gopkg.in/yaml.v3|v3.0.1|间接依赖|go|
+|github.com/pkg/errors|v0.9.1|间接依赖|go|
+|golang.zx2c4.com/wireguard/wgctrl|v0.0.0-20230429144221-925a1e7659e6|直接依赖|go|
+|github.com/scjalliance/comshim|v0.0.0-20230315213746-5e51f40bd3b9|间接依赖|go|
+|go.uber.org/goleak|v1.2.1|直接依赖|go|
+|github.com/sagernet/cloudflare-tls|v0.0.0-20230829051644-4a68352d0c4a|直接依赖|go|
+|github.com/sagernet/websocket|v0.0.0-20220913015213-615516348b4e|直接依赖|go|
+|golang.org/x/text|v0.12.0|间接依赖|go|
+|go.uber.org/multierr|v1.11.0|间接依赖|go|
+|github.com/onsi/ginkgo/v2|v2.9.5|间接依赖|go|
+|github.com/spf13/pflag|v1.0.5|间接依赖|go|
+|github.com/sagernet/gvisor|v0.0.0-20230627031050-1ab0276e0dd2|直接依赖|go|
+|berty.tech/go-libtor|v1.0.385|直接依赖|go|
+|go4.org/netipx|v0.0.0-20230824141953-6213f710f925|直接依赖|go|
+|github.com/sagernet/sing-dns|v0.1.9-0.20230824120133-4d5cbceb40c1|直接依赖|go|
+|gotest.tools/v3|v3.4.0|间接依赖|go|
+|github.com/sagernet/reality|v0.0.0-20230406110435-ee17307e7691|直接依赖|go|
+|github.com/stretchr/testify|v1.8.4|直接依赖|go|
+|github.com/libdns/libdns|v0.2.1|间接依赖|go|
+|github.com/josharian/native|v1.1.0|间接依赖|go|
+|github.com/spf13/cobra|v1.7.0|直接依赖|go|
+|github.com/quic-go/qtls-go1-20|v0.3.3|间接依赖|go|
+|github.com/logrusorgru/aurora|v2.0.3+incompatible|直接依赖|go|
+|google.golang.org/grpc|v1.57.0|直接依赖|go|
+|github.com/go-ole/go-ole|v1.3.0|间接依赖|go|
+|gopkg.in/check.v1|v1.0.0-20200227125254-8fa46927fb4f|间接依赖|go|
+|github.com/go-chi/render|v1.0.3|直接依赖|go|
+|github.com/sagernet/sing-shadowtls|v0.1.4|直接依赖|go|
+|github.com/sagernet/sing-shadowsocks|v0.2.4|直接依赖|go|
+|github.com/sagernet/sing-vmess|v0.1.7|直接依赖|go|
+|github.com/docker/distribution|v2.8.1+incompatible|间接依赖|go|
+|lukechampine.com/blake3|v1.2.1|间接依赖|go|
+|github.com/go-chi/chi/v5|v5.0.10|直接依赖|go|
+|golang.org/x/mod|v0.12.0|间接依赖|go|
+|github.com/opencontainers/go-digest|v1.0.0|间接依赖|go|
+|github.com/sagernet/utls|v0.0.0-20230309024959-6732c2ab36f2|直接依赖|go|
+|golang.org/x/tools|v0.12.1-0.20230815132531-74c255bcf846|间接依赖|go|
+|github.com/ooni/go-libtor|v1.1.8|直接依赖|go|
+|github.com/insomniacslk/dhcp|v0.0.0-20230816195147-b3ca2534940d|直接依赖|go|
+|github.com/sagernet/tfo-go|v0.0.0-20230816093905-5a5c285d44a6|直接依赖|go|
+|github.com/gogo/protobuf|v1.3.2|间接依赖|go|
+|github.com/google/pprof|v0.0.0-20210407192527-94a9f03dee38|间接依赖|go|
+|golang.org/x/time|v0.3.0|间接依赖|go|
+|github.com/fsnotify/fsnotify|v1.6.0|直接依赖|go|
+|go.etcd.io/bbolt|v1.3.7|直接依赖|go|
+|github.com/spyzhov/ajson|v0.9.0|直接依赖|go|
+|github.com/sagernet/go-tun2socks|v1.16.12-0.20220818015926-16cb67876a61|间接依赖|go|
+
+
+------
+
+*此检测报告由墨菲安全提供*
+
+[墨菲安全](www.murphysec.com)
